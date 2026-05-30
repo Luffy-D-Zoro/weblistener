@@ -1,0 +1,1 @@
+gcc pdfparser.c -o pdfparser.exe -IC:\msys64\mingw64\include C:\msys64\mingw64\lib\libmupdf.a C:\msys64\mingw64\lib\libmupdf-third.a -lfreetype -ljpeg -ljbig2dec -lpng -lz -lm -o parser
